@@ -1,3 +1,4 @@
+![Screenshot 2024-08-06 202809](https://github.com/user-attachments/assets/e2881edc-983f-4987-892e-af0a33f8d933)
 
 
 # Spam Filter AI
