@@ -40,7 +40,7 @@ Spam Filter AI employs advanced machine learning methods to process and analyze 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/sd338/spam-filter-ai.git
+   git clone https://github.com/Sd338/spam-filter-ai.git
    ```
 
 2. **Navigate to the Project Directory**
