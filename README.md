@@ -1,3 +1,4 @@
+
 # Spam Filter AI
 
 Spam Filter AI is a Python application designed to classify emails as spam or non-spam using machine learning techniques. By utilizing Natural Language Processing (NLP) and Naive Bayes classification, this tool helps maintain an organized and spam-free inbox.
