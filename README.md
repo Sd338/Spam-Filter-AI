@@ -1,4 +1,5 @@
 
+
 # Spam Filter AI
 
 Spam Filter AI is a Python application designed to classify emails as spam or non-spam using machine learning techniques. By utilizing Natural Language Processing (NLP) and Naive Bayes classification, this tool helps maintain an organized and spam-free inbox.
@@ -134,9 +135,26 @@ Contributions are welcome! Here’s how to contribute:
    ```
 6. **Submit a Pull Request**: Open a pull request on GitHub.
 
-##📝 License
+## 📝 License
 
-This project is licensed under the GNU General Public License v3.0. The GPL-3.0 is a strong copyleft license that requires you to make the source code of the project available if you distribute or modify the software. For more details, visit the GNU General Public License v3.0 page.
+This project is licensed under the GNU General Public License v3.0. The GPL-3.0 is a strong copyleft license that requires you to make the source code of the project available if you distribute or modify the software. For more details, visit the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html) page.
+
+### Permissions
+- **Commercial Use**: Allowed
+- **Modification**: Allowed
+- **Distribution**: Allowed
+- **Patent Use**: Allowed
+- **Private Use**: Allowed
+
+### Limitations
+- **Liability**: No warranty is provided.
+- **Warranty**: The software is provided "as-is."
+
+### Conditions
+- **License and Copyright Notice**: Must be included in all copies and substantial portions of the software.
+- **State Changes**: Modified versions must also be licensed under GPL-3.0.
+- **Disclose Source**: Source code must be made available when distributing binaries or modified versions.
+- **Same License**: Modified versions must be distributed under GPL-3.0.
 
 ## 📧 Contact
 
