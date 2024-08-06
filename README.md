@@ -1,5 +1,4 @@
-![Screenshot 2024-08-06 202809](https://github.com/user-attachments/assets/e2881edc-983f-4987-892e-af0a33f8d933)
-
+![Screenshot 2024-08-06 202809](https://github.com/user-attachments/assets/8d3ae015-a086-4b1e-9235-d9e58b7be258)
 
 # Spam Filter AI
 
@@ -9,7 +8,8 @@ Spam Filter AI is a Python application designed to classify emails as spam or no
 
 Spam Filter AI employs advanced machine learning methods to process and analyze email content, categorizing it as spam or non-spam. Key components include:
 
-- **Natural Language Processing (NLP)**: For analyzing and understanding text.
+- **Natural Language Processing (NLP)**: For analy!
+zing and understanding text.
 - **Naive Bayes Classification**: For spam detection.
 - **TF-IDF Vectorization**: To convert text into numerical features.
 
@@ -28,6 +28,56 @@ Spam Filter AI employs advanced machine learning methods to process and analyze 
 - **pandas**: For data manipulation and analysis.
 - **NLTK**: For text processing and NLP.
 
+## 📂 Project Structure
+
+Here's the structure of the project directory:
+
+```
+Spam-Filter-AI/
+├── data/
+│   ├── email.csv
+│   ├── emails.csv
+│   ├── preprocessed_emails.csv
+├── src/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── evaluation.py
+│   ├── feature_extraction.py
+│   ├── gui.py
+│   ├── model.py
+├── venv/
+│   ├── Include/
+│   ├── Lib/
+│   ├── Scripts/
+│   ├── pyvenv.cfg
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── spam_detector_model.pkl
+├── tfidf_vectorizer.pkl
+├── X_features.pkl
+├── X_test.pkl
+├── y_test.pkl
+```
+
+### **Data Directory**
+
+- **`data/`**: This directory is used for storing datasets.
+  - `email.csv`: Contains raw email data for processing.
+  - `emails.csv`: A dataset used for training and testing the model.
+  - `preprocessed_emails.csv`: Contains emails that have been preprocessed for model training.
+
+### **Source Code Directory**
+
+- **`src/`**: Contains all the source code files.
+  - `data_preprocessing.py`: Handles the preprocessing of raw email data.
+  - `evaluation.py`: Evaluates the performance of the model.
+  - `feature_extraction.py`: Extracts features from email content for model training.
+  - `gui.py`: Manages the graphical user interface.
+  - `model.py`: Contains code for model training and prediction.
+
 ## 📥 Installation Guide
 
 ### Prerequisites
@@ -40,7 +90,7 @@ Spam Filter AI employs advanced machine learning methods to process and analyze 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/Sd338/spam-filter-ai.git
+   git clone https://github.com/sd338/spam-filter-ai.git
    ```
 
 2. **Navigate to the Project Directory**
@@ -69,19 +119,6 @@ Spam Filter AI employs advanced machine learning methods to process and analyze 
    pip install -r requirements.txt
    ```
 
-## 📂 Project Structure
-
-- **`src/`**: Contains source code files.
-  - `gui.py`: Manages the graphical user interface.
-  - `model.py`: Handles model training and prediction.
-  - `data_preprocessing.py`: Prepares and processes data.
-  - `feature_extraction.py`: Extracts features from email content for the model.
-  - `evaluation.py`: Evaluates model performance.
-- **`data/`**: Directory for storing datasets.
-- **`requirements.txt`**: Lists all dependencies.
-- **`README.md`**: This file.
-- **`LICENSE`**: License information.
-
 ## 📈 Usage Instructions
 
 ### Running the Application
@@ -101,6 +138,11 @@ Spam Filter AI employs advanced machine learning methods to process and analyze 
 1. **Paste Email Content**: Copy and paste email content into the text area in the GUI.
 2. **Submit Email**: Click "Submit Email" to classify the content.
 3. **Delete Mail**: Click "Delete Mail" to clear the text area.
+
+### Data Files
+
+- Place your raw email data files (e.g., `email.csv`, `emails.csv`) in the `data/` directory.
+- The preprocessed data file (`preprocessed_emails.csv`) should also be placed in the `data/` directory after preprocessing.
 
 ## 📊 Data
 
@@ -160,4 +202,5 @@ This project is licensed under the GNU General Public License v3.0. The GPL-3.0 
 ## 📧 Contact
 
 For questions or support, please reach out via the contact methods on my [GitHub profile](https://github.com/sd338). Note that the email address provided in the GUI (`support@spamfilterai.com`) is fictional and used for demonstration purposes only.
+
 
