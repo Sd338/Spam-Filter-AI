@@ -134,7 +134,8 @@ Contributions are welcome! Here’s how to contribute:
    ```
 6. **Submit a Pull Request**: Open a pull request on GitHub.
 
-📝 License
+##📝 License
+
 This project is licensed under the GNU General Public License v3.0. The GPL-3.0 is a strong copyleft license that requires you to make the source code of the project available if you distribute or modify the software. For more details, visit the GNU General Public License v3.0 page.
 
 ## 📧 Contact
